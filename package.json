@@ -10,11 +10,11 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && ng serve -o",
-    "postinstall": "ng build"
+    "postinstall": "ng build --configuration production"
   },
   "engines": {
-    "node": "6.11.1",
-    "npm": "3.10.9"
+    "node": "12.16.3",
+    "npm": "6.14.4"
   },
   "private": true,
   "dependencies": {
